@@ -1,0 +1,460 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Headland+One&family=Noto+Sans+Mono:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+/* General styles */
+*, *::before,*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    /* font-family: "proxima nova", sans-serif; */
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    font-weight: 300;
+}
+
+/* Header styles */
+header {
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    background-color: #f8f9fa;
+}
+html, body {
+    width: 100%;
+    height: 100%;
+  }
+
+  /* * {
+    border: 1px solid red;
+  } */
+
+  #navbarNav {
+    display: flex;
+    align-items: right;
+    justify-content: right;
+  } 
+.navbar-nav{
+  justify-content: space-between;
+  width: 50%;
+}
+
+.nav-link {
+    font-weight: 400;
+}
+
+.nav-link:hover {
+    color: bleck;
+}
+#home{
+    text-align: center;
+    padding: 80px;
+    background-image: url("some-vegetables-basket-sunlight.jpg");
+    color: whitesmoke;
+}
+#home h2 {
+    letter-spacing: .05em;
+    /* font-size: 1em; */
+    font-family: "Noto Sans Mono", monospace;
+    font-weight: 900;
+}
+
+#home p{
+    font-family: "Headland One", serif;
+}
+#home a button{
+    font-weight: 900;
+}
+
+#home a button:hover {
+    color: green;
+}
+#problist {
+    font-size: 1rem;
+    border-radius: .5em 0em .5em 0em;
+}
+#probpa {
+    /* font-family: "Headland One", serif;  */
+    font-weight: 300;
+}
+#problist h5 {
+    font-weight: 600;
+}
+#food{
+    text-align: center;
+    padding: 20px;
+
+}
+
+#SolutionText h3, #impact_list h3{
+    font-family: "Headland One", serif;
+    font-weight: bold;
+}
+
+/* Section styles */
+section {
+    padding: 20px;
+}
+
+
+/* Form styles */
+form {
+    margin-top: 20px;
+}
+
+form label {
+    font-weight: bold;
+}
+
+form input[type="text"],
+form input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+form input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+    background-color: #555;
+}
+
+/* Footer styles */
+footer {
+    background-color: #274204;
+    color:  #add37c;;
+    padding: 5px;
+    text-align: center;
+    font-weight: lighter;
+    list-style-type: none
+}
+
+#the4columns {
+    margin: 50px 100px;
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    justify-self: center;
+    justify-items: center;
+    align-items: top;
+    align-self: center;
+    align-content: center;
+  }
+
+  
+#mobile {
+    display: none;
+}
+#food_mobile{
+    display: none;
+}
+#mobile {
+    display: none;
+}
+#food_mobile{
+    display: none;
+}
+/* Media query for mobile devices */
+@media screen and (max-width: 600px) {
+    #mobile {
+        display: block;
+    }
+
+    footer{
+        display:none;
+    }
+    #food_mobile{
+        display: block;
+        width:100%;
+    }
+    #food{
+        display: none;
+    }
+  }
+
+/* Style for signup page */
+#bodysignup{
+    background-image:url(1.png);
+    background-size:contain; /* Scale the background image to cover the entire container */
+    background-position: center; /* Center the background image */
+  
+}
+.container {
+    max-width: 400px;
+    margin: 50px auto;
+    background-color:#274204;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h3 {
+    text-align: center;
+    margin: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: #333;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #555;
+}
+  #button4 {
+    width: 120px;
+    margin: 0px auto;
+    background-color: #274204;
+    color: whitesmoke;
+  }
+  #button3 {
+    width: 100px;
+    margin: 0px auto;
+    background-color: #274204;
+    color: whitesmoke;
+  } 
+/* retrieve data */
+#Agrobody{
+    background-image:url(1.png);
+    background-size:contain; /* Scale the background image to cover the entire container */
+    background-position: center; /* Center the background image */
+}
+  .container {
+    max-width: 400px;
+    margin: 50px auto;
+    background-color: #274204;
+    color: rgb(190, 188, 188);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+h4{
+    text-align: center;
+    padding: 15px;
+    color: whitesmoke;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+input[type="text"],
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 4px;
+}
+
+#submitFormLink {
+   background-color: white;
+   text-align: center;
+   border-radius: 5px;
+   padding: 5px;
+   text-decoration: none;
+   color: #274204;
+}
+
+
+/* problem section */
+#problem{
+    text-align: center;
+    padding: 50px;
+}
+#probpa{
+    padding-left: 100px;
+    padding-right:100px;
+    padding-bottom: 30px;
+    color: #274204;
+}
+#problem_list{
+    display: flex;
+}
+#problist{
+    text-align: center;
+    background-color: #add37c;
+    justify-content: space-around;
+    padding: 20px;
+    margin-left: 50px;
+    width: 20%;
+}
+/* Solution */
+#Solution{
+    display: flex;
+    justify-content: space-between;
+    background-color: #add37c;
+    gap: 100px;
+    padding-inline: 70px;
+    padding-block: 60px;
+}
+#SolutionText{
+    width: 45%;
+}
+#solution_list{
+    padding-top: 10px;
+}
+#solutionPic{
+    width: 45%;    
+}
+
+#solutionPic img {
+    width: 100%;
+    height: 100%;
+}
+
+#solutionPic img {
+    border-radius: 0rem 1rem 0rem 1rem;
+}
+/* Impact */
+
+#impact{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: #add37c;
+    gap: 100px;
+    padding-inline: 70px;
+    padding-bottom: 60px;
+}
+
+#impactPic  {
+    width: 45%;
+}
+
+#impactPic img {
+    min-width: 100%;
+    height: 100%;
+} 
+
+#impactText{
+    width: 45%;
+}
+
+#impact_list1{
+    display: flex;
+    padding-top: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: center;
+}
+
+#impact_list2{
+    display: flex;
+    padding-top: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: center;
+}
+
+#impactspace{
+    margin-right: 10%;
+}
+
+#impact_list{
+    width: 200%;
+}
+
+#impactPic img {
+    border-radius: 0rem 1rem 0rem 1rem;
+} 
+
+
+/* About */
+#Abmi{
+    display: flex;
+    color:#274204;
+    background-color: #add37c;
+    font-size: 1rem;
+    border-radius: .5em 0em .5em 0em;
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-top: 20px;
+}
+#Aboutus{
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    margin-right: 100px;
+
+}
+
+#Mission{
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 50px;
+    text-align: center;
+}
+#Values{
+    text-align: center;
+    color: #274204;
+    padding-top: 20px;
+  
+}
+#Valueshead{
+  display: flex;
+  text-align: center;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+#val{
+    padding: 50px;
+    justify-content: space-around;
+    margin-left: 50px;
+    margin-right: 50px;
+    width: 30%;
+    color: #274204;
+    background-color: #add37c;
+    font-size: 1rem;
+    border-radius: .5em 0em .5em 0em;
+}
+
+#Thanks{
+    text-align: center;
+    padding: 140px;
+    color: #274204;
+}
+
